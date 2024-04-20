@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol</title>
+    <link rel="stylesheet" href="exa.css">
+</head>
+<body>
+    <header>
+        <h1>Fútbol</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#noticias">palmares</a></li>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="mailto:tucorreo@ejemplo.com">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section >
+            <h2>Bienvenido al mundo del fútbol</h2>
+            <p>Aquí encontrarás toda la información sobre la bendita champions.</p>
+            <img src="champions.jpg" alt="Imagen de la champions">
+        </section>
+        <section>
+            <h2>himno de la champions</h2>
+            <audio controls>
+                <source src="himno-champions-original.mp3" type="audio/mpeg">
+                
+            </audio>
+        </section>
+
+        <section id="noticias">
+            <h2>equipos con mas champions</h2>
+            <ol>
+                <li>Real Madrid: 14</li>
+                <li>Ac Milan: 7</li>
+                <li>Bayern munich: 6</li>
+                <li>Liverpool :6</li>
+                <li>Barcelona: 5</li>
+            </ol>
+        </section>
+
+        <section id="equipos">
+            <h2>Equipo destacado</h2>
+            <button id="cambiarEquipo">Cambiar equipo</button>
+            <div id="infoEquipo">
+                <h3 id="nombreEquipo"></h3>
+                <p id="descripcionEquipo"></p>
+                <img id="logoEquipo" src="" alt="Logo del equipo">
+            </div>
+        </section>
+        <section>
+            <div id="ventanaEmergente" style="display: none;">
+                <p>¿Te gustó esta página?</p>
+                <button id="btnSi">Sí</button>
+                <button id="btnNo">No</button>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer id="Contacto">
+        <a href="mailto:Irvencea@gmail.com?subject=Contacto desde el sitio Futbol de la champions=dudas o sugerencias aqui">hecho por Irven Cea</a>
+    </footer>
+
+    <script src="exa.js"></script>
+</body>
+</html>
